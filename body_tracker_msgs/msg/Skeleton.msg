@@ -1,0 +1,44 @@
+#Header header # I CANT GET THIS TO COMPILE!
+
+int32 body_id
+int32 tracking_status
+int32 gesture
+
+geometry_msgs/Point32 position2D # x,y in camera frame, z distance from camera
+
+geometry_msgs/Point32 centerOfMass
+
+#Position of interesting joints
+geometry_msgs/Point32 joint_position_head_real
+geometry_msgs/Point32 joint_position_neck_real
+geometry_msgs/Point32 joint_position_shoulder_real
+geometry_msgs/Point32 joint_position_spine_top_real
+geometry_msgs/Point32 joint_position_spine_mid_real
+geometry_msgs/Point32 joint_position_spine_bottom_real
+
+geometry_msgs/Point32 joint_position_left_shoulder_real
+geometry_msgs/Point32 joint_position_left_elbow_real
+geometry_msgs/Point32 joint_position_left_hand_real
+
+geometry_msgs/Point32 joint_position_right_shoulder_real
+geometry_msgs/Point32 joint_position_right_elbow_real
+geometry_msgs/Point32 joint_position_right_hand_real
+
+geometry_msgs/Point32 joint_position_head_proj
+geometry_msgs/Point32 joint_position_neck_proj
+geometry_msgs/Point32 joint_position_shoulder_proj
+geometry_msgs/Point32 joint_position_spine_top_proj
+geometry_msgs/Point32 joint_position_spine_mid_proj
+geometry_msgs/Point32 joint_position_spine_bottom_proj
+
+geometry_msgs/Point32 joint_position_left_shoulder_proj
+geometry_msgs/Point32 joint_position_left_elbow_proj
+geometry_msgs/Point32 joint_position_left_hand_proj
+
+geometry_msgs/Point32 joint_position_right_shoulder_proj
+geometry_msgs/Point32 joint_position_right_elbow_proj
+geometry_msgs/Point32 joint_position_right_hand_proj
+
+# Robot is usually too close to see legs, and not very interesting
+
+

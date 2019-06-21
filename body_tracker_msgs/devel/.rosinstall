@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robotpt/Desktop/catkin_nui/src/body_tracker_msgs/devel/setup.sh
